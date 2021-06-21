@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+	font-family: 'Noto Sans JP', sans-serif;
+	/*background-color: #f8f9fa;
+	/*margin: 0;
+	padding: 0;*/
+	/*left: 0;*/
+	box-sizing: border-box;
+	color: #353535;
+
+}
+
+.nav_bar {
+	background-color: #353535;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	margin: 0;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	/*display: none;*/
+	/*margin: 0 auto;*/
+}
+
+.nav_bar a:hover, .home_active{
+	/*background-color: #8955d0;*/
+	color: #f8f9fa;
+	border-bottom: 5px solid #8955d0;
+}
+
+
+.nav_bar a,#dropbtn{
+	display: inline-block;
+	color: #f8f9fa;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 16px 16px;
+	font-weight: bold;
+	/*background-color: #353535;
+	border: none;*/
+}
+
+.aboutus_article{
+	/*margin-top: 100px;*/
+	width: 80%;
+	margin: 70px auto 10px auto;
+	/*float: left;*/
+	/*background-color: red;*/
+	padding: 50px;
+
+}
+
+#aboutus_title{
+	font-weight: bold;
+	float: left;
+	margin-bottom: 70px;
+}
+
+#gp_photo{
+	margin: 30px 0 ;
+	float: right;
+
+}
+#aboutus_article{
+	clear: left;
+	font-weight: bold;
+	width: 40%;
+	margin-bottom: 70px;
+}
+
+#gp_photo{
+	width: 40%;
+	
+}
+
+#contact_btn {
+	font-weight: bold;
+	background-color: #353535;
+	color: #f8f9fa;
+	display: inline-block;
+	padding: 10px 20px 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	/*cursor: pointer;*/
+}
+#contact_btn:hover{
+	background-color: #8955d0;
+}
+
+footer{
+	background-color: lightgrey;
+	bottom: 0;
+	left: 0;
+	padding: 5px;
+	font-size: 12px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
